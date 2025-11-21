@@ -100,14 +100,13 @@
     /**
      * Censurar numeros
      */
-
     $texto_original = "Mi telefono es 612345679 y mi DNI es 12345678X";
     $texto_censurado = preg_replace("/[3-8]/", "*", $texto_original);
 
     echo "Original: $texto_original <br>";
     echo "Censurado: $texto_censurado <br>"
 
-    
+
 
     ?>
 </body>
